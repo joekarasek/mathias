@@ -1,0 +1,76 @@
+#section-forms {
+  background-color: #e1ecf4;
+  padding-top: 45px;
+  padding-bottom: 45px;
+
+  .heading {
+    text-align: center;
+    padding-bottom: 30px;
+
+    &__title {
+      color: #1e5879;
+      font-style: italic;
+      font-weight: 900;
+      margin-bottom: 15px;
+      line-height: 1;
+      padding-bottom: 0;
+      padding-top: 10px;
+    }
+  }
+
+  .forms {
+    &__byline {
+      color: #424242;
+      font-size: 18px;
+      padding-bottom: 15px;
+    }
+
+    &__copy {
+      color: #3e3e3e;
+
+      a {
+        text-decoration: underline;
+
+        &:hover {
+          color: #3e3e3e;
+        }
+      }
+    }
+
+    &__btn-wrapper {
+      padding-bottom: 30px;
+    }
+  }
+
+  .btn {
+    margin: 10px 0;
+    width: 290px;
+  }
+
+  .line-break {
+    display: none;
+  }
+
+  @media (min-width: 768px) {
+    .btn {
+      width: 320px;
+      margin-left: 15px;
+      margin-right: 15px;
+    }
+
+    .forms__btn-wrapper {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .line-break {
+      display: inline-block;
+      height: 54px;
+      width: 1px;
+      background: #1a202a;
+      line-height: 0;
+      margin-bottom: 0;
+    }
+  }
+}

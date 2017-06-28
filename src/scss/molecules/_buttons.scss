@@ -1,0 +1,53 @@
+a.btn,
+button.btn {
+  font-family: $ff-lato;
+  font-weight: 700 !important;
+  background-color: #10a9a4;
+  color: #fff;
+  border-radius: 30px;
+  border: solid 3px #fff;
+  padding: 10px 50px;
+  //box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.36);
+
+  @include font-size(22px, 21px, 19px, 18px, 16px);
+
+  &:hover,
+  &:focus {
+    background-color: darken(#10a9a4, 15%);
+    //box-shadow: 1px 3px 6px rgba(0, 0, 0, 0.46);
+    transition: all 0.3s ease;
+    text-decoration: none;
+  }
+
+  &.btn--style-two {
+    background-color: #f06123;
+    color: #fff;
+    //box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.36);
+
+    &:hover,
+    &:focus {
+      background-color: darken(#f06123, 15%);
+      //box-shadow: 1px 3px 6px rgba(0, 0, 0, 0.46);
+    }
+  }
+
+  &.btn--style-three {
+    background-color: rgba(255, 255, 255, 0);
+    color: #1e5879;
+    border-color: #1e5879;
+
+    &:hover,
+    &:focus {
+      //background-color: darken(#9ed5af, 15%);
+      //box-shadow: 1px 3px 6px rgba(0, 0, 0, 0.46);
+    }
+  }
+
+  &.shadowed {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  }
+
+  &.form-btn {
+    width: 100%;
+  }
+}

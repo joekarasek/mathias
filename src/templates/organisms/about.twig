@@ -1,0 +1,56 @@
+<section id="section-about" class="clearfix about">
+
+    <div class="heading center">
+        <h2 class="heading__main">Meet the Team</h2>
+        <h3 class="heading__byline">at Calvin Dental Associates</h3>
+    </div>
+
+    <div class="about__video-slab">
+        <div class="container">
+            <div class="row">
+                <div class="about__video-slab__video">
+                    <iframe src="https://player.vimeo.com/video/221024934" width="640" height="360" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row center">
+            <p class="video__copy">Learn more about Dr. Calvin in the video above.</p>
+        </div>
+    </div>
+
+    <div class="about__doctor-slab">
+        <div class="container">
+            <div class="row">
+                <div class="doctor__wrapper">
+                    <div class="doctor">
+                        <h2 class="doctor__name">Rick Calvin, <small>DDS</small></h2>
+                        <p class="doctor__copy">Dr. Calvin is proficient in three of the most up-to-date treatments
+                            available in dentistry: the WaterLase® soft/hard-tissue laser, CEREC® CAD/CAM restoration
+                            technology, and computer-guided surgical implant placement and restoration. Each year, Dr.
+                            Calvin attends over 100 hours of world-class continuing education courses in cosmetic dentistry,
+                            dental implants, and advanced dental techniques to ensure that you get the best treatments
+                            available.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="doctor__mobile-image">
+            {#<img src="assets/" alt="{{  mainDoctor }}">#}
+        </div>
+    </div>
+
+    {% include 'molecules/associations__carousel.twig' %}
+
+    <div class="about__team-slab">
+        <div class="container heading">
+            <h3 class="heading__title">Dr. Calvin and his excellent team</h3>
+            <p class="heading__byline">take pride in building lasting relationships with their patients while providing
+                state-of-the-art dental care. Select a link below to learn more about our team members.</p>
+        </div>
+        {% include 'molecules/team__carousel.twig' %}
+    </div>
+</section>
+

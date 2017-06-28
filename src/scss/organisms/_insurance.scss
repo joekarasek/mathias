@@ -1,0 +1,135 @@
+#section-insurance {
+
+  $c-no-insurance: #1d5575;
+  $c-sub-header: #f05423;
+  $c-preventative: #303030;
+  $c-copy: #303030;
+  $c-mobile-bg: #fff;
+
+  padding-top: 50px;
+  background-color: #fff;
+  background-size: contain;
+  background-repeat: no-repeat;
+
+  //@media (min-width: 768px) {
+  //  background-position: -180px bottom;
+  //}
+  //
+  //@media (min-width: 992px) {
+  //  background-position: -30px bottom;
+  //}
+  //
+  //@media (min-width: 1200px) {
+  //  background-position: left bottom;
+  //}
+
+  @media (max-width: $width-sm - 1) {
+    background-position: top center;
+    background-color: $c-mobile-bg;
+    background-image: none;
+
+    .row > div {
+      text-align: center;
+    }
+  }
+
+  .title {
+    font-family: $ff-open;
+    font-weight: 900;
+    font-style: italic;
+    margin-bottom: 0;
+    line-height: 1;
+    color: $c-no-insurance;
+
+    @include font-size(88px, 72px, 72px, 58px, 44px);
+  }
+
+  .sub-title {
+    font-weight: 700;
+    color: $c-sub-header;
+    margin-bottom: 0;
+    display: inline-block;
+    font-style: italic;
+
+    @include font-size(46px, 40px, 40px, 36px, 23px);
+  }
+
+  .preventative-care {
+    font-weight: 400;
+    line-height: 1.5;
+    padding-top: 30px;
+    color: $c-preventative;
+
+    @include font-size(30px, 28px, 28px, 27px, 20px);
+
+    @media (min-width: 768px) {
+      padding-top: 0;
+      padding-right: 20px;
+      margin-bottom: 0;
+      text-align: right;
+      border-right: solid 1px #000;
+    }
+  }
+
+  .insurance__copy {
+    color: $c-copy;
+    list-style: none;
+    margin-bottom: 10px;
+    line-height: 1.2;
+
+    @include font-size(18px, 17px, 17px, 16px, 16px);
+
+    @media (min-width: 768px) {
+      text-align: left;
+      padding-top: 0;
+      padding-left: 20px;
+
+      &--last {
+        margin-bottom: 0;
+      }
+    }
+  }
+
+  .btn {
+    margin-top: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    @include lr-padding(80px, 70px, 60px, 60px, 40px);
+  }
+
+  //Fix for insurance background on mobile
+  .mobile-insurance-fix {
+    display: none;
+
+    @media (max-width: $width-sm - 1) {
+      margin-top: -20px;
+      display: block;
+    }
+  }
+
+  .flex-wrapper {
+    @media (min-width: 768px) {
+      padding: 20px 0;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+
+      .flex-item {
+        width: 50%;
+      }
+    }
+  }
+
+  .insurance__image {
+    margin-top: -20px;
+
+    @media (min-width: 992px) {
+      margin-top: -90px;
+    }
+
+    @media (min-width: 1200px) {
+      margin-top: -130px;
+    }
+  }
+}

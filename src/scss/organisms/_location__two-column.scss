@@ -1,0 +1,60 @@
+#section-location {
+  padding-bottom: 30px;
+
+  .location__marquee {
+    background-image: url(/assets/team-photo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+    margin-bottom: 30px;
+    height: 200px !important;
+
+    @media (min-width: $width-xs) {
+      height: 250px !important;
+    }
+
+    @media (min-width: $width-sm) {
+      height: 400px !important;
+    }
+
+    @media (min-width: $width-md) {
+      background-position: center 50px;
+      height: 480px !important;
+    }
+
+    @media (min-width: $width-lg) {
+      height: 480px !important;
+    }
+  }
+}
+
+.location.location__two-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .location__map,
+  .location__card--wrapper {
+    width: 100%;
+  }
+
+  @media (min-width: 768px) {
+    flex-direction: row;
+
+    .location__card--wrapper {
+      width: 50%;
+    }
+
+    .location__map {
+      width: 50%;
+      height: 100%;
+    }
+  }
+
+  @media (min-width: 1200px) {
+    .location__map,
+    .location__card--wrapper {
+      width: 50%;
+    }
+  }
+}

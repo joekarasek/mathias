@@ -1,0 +1,82 @@
+{
+  "services":[
+    {
+      "doubleWide": false,
+      "title": "Smile Whitening",
+      "titleFull": "Smile-Whitening",
+      "image": "whitening.jpg",
+      "modalTarget": "whitening",
+      "text": ["Many everyday things like coffee, tea and wine can significantly dull teeth. Smile-whitening enables us to significantly brighten your smile for that dazzling white smile you deserve.",
+        "Plastic whitening trays will be made from models of your teeth. You will then place a special whitening gel in each tray and wear the trays in your mouth for several hours per day. (Many patients wear their trays after dinner and before bed.) A significant change in tooth color is usually seen in just four to six weeks."]
+    },
+    {
+      "doubleWide": false,
+      "title": "Veneers",
+      "titleFull": "Veneers",
+      "image": "veneers.jpg",
+      "modalTarget": "veneers",
+      "text": ["Veneers are very thin porcelain pieces that are custom made to adhere directly to the front of teeth without grinding or shaving. Transform your smile without drilling on your natural teeth!",
+        "In the hands of a highly skilled dentist, porcelain laminates can provide you with an incredibly natural, beautiful smile. They are virtually undetectable and can dramatically improve your appearance. They are durable and long-lasting when compared to other cosmetic treatments."]
+    },
+    {
+      "doubleWide": false,
+      "title": "Invisalign",
+      "titleFull": "Invisalign® Orthodontics",
+      "image": "invisalign.jpg",
+      "modalTarget": "invisalign",
+      "text": ["These “invisible” aligners are the latest in orthodontic technology for adults and teens. Straight teeth and a revitalized smile no longer need to come from a mouth full of unattractive wire and bracket braces. Enhancing self-esteem and physical confidence, invisible braces offer an esthetic and barely visible alternative to conventional wire/bracket braces.",
+        "Get the smile you've always wanted with Invisalign® Orthodontics."]
+    },
+    {
+      "doubleWide": false,
+      "title": "Clear Correct",
+      "titleFull": "Clear Correct® Orthodontics",
+      "image": "clear.jpg",
+      "modalTarget": "clear",
+      "text": ["ClearCorrect is a clear aligner system used to straighten teeth as an alternative to traditional braces. Similar to other clear aligner brands (like Invisalign) available to dentists or orthodontists certified to offer them to their patients, ClearCorrect straightens teeth using a series of clear, custom-made, removable aligners that gradually move teeth a little bit at a time, eventually correcting the teeth and smile to elicit a new, revitalized look."]
+    },
+    {
+      "doubleWide": false,
+      "title": "Family Care",
+      "titleFull": "Family Care",
+      "image": "family-care.jpg",
+      "modalTarget": "family",
+      "text": ["From children to the elderly, our skilled dental team is familiar with the unique needs of every patient, no matter their age. Our goal is to help you and your family develop great oral habits that will last a lifetime.",
+        "Join us today and discover how our practice can help treat your entire family."]
+    },
+    {
+      "doubleWide": false,
+      "title": "CEREC Restorations",
+      "titleFull": "CEREC® One-Visit Crowns",
+      "image": "cerec.jpg",
+      "modalTarget": "cerec",
+      "text": ["CEREC® technology allows our practice to create tooth-colored porcelain restorations for healthy, beautiful smiles in a single appointment.",
+        "Crowns should be placed before the tooth is so decayed that it may fracture. This can often help prevent the expense of root canal therapy in the future. If a tooth is too damaged to have a crown applied, a porcelain bridge may be a good alternative."]
+    },
+    {
+      "doubleWide": false,
+      "title": "TMJ Treatment",
+      "titleFull": "TMJ Treatment",
+      "image": "tmj.jpg",
+      "modalTarget": "tmj",
+      "text": ["If you suffer from headaches or pain, clicking or popping while chewing, there may be problems with your temporomandibular joint (or TMJ). Call us today to schedule a free TMJ treatment consultation."]
+    },
+    {
+      "doubleWide": false,
+      "title": "Crowns and Bridges",
+      "titleFull": "Porcelain Crowns & Bridges",
+      "image": "crowns.jpg",
+      "modalTarget": "crowns",
+      "text": ["Protect and keep badly decayed or fractured teeth while maintaining a beautiful smile. Made to perfectly match the shape and shade of your other teeth, they’re durable, strong, and undetectable.",
+        "Crowns should be placed before the tooth is so decayed that it may fracture. This can often help prevent the expense of root canal therapy in the future. If a tooth is too damaged to have a crown applied, a porcelain bridge may be a good alternative."]
+    },
+    {
+      "doubleWide": false,
+      "title": "Laser Dentistry",
+      "titleFull": "Laser Dentistry",
+      "image": "laser.jpg",
+      "modalTarget": "laser",
+      "text": ["Laser dentistry is a highly-effective, gentle way to treat gum disease, remove bacteria, and re-contour gum lines after cosmetic dentistry. Laser dentistry is a more comfortable, accurate way to produce excellent results."]
+    }
+  ]
+}

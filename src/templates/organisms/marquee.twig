@@ -1,0 +1,56 @@
+<!-- Marquee Slider
+============================================= -->
+<div id="mobile-background" class="hidden-md hidden-lg">
+    <a href="#" data-scrollto="#section-specials" data-offset="0">
+        <img src="assets/slides/mobile-slide.jpg" style="width:100%;height:auto;" alt="{{ doctorName }}">
+    </a>
+</div>
+
+<!-- Slider
+============================================= -->
+<section id="slider" class="hidden-xxs hidden-xs hidden-sm slider-parallax swiper_wrapper clearfix">
+    <div class="swiper-container swiper-parent">
+        <div class="swiper-wrapper">
+
+            <!-- Slide
+            ============================================= -->
+            <div class="swiper-slide slide1" style="background: url('assets/slides/slide1.jpg') 50% 50% no-repeat; background-size: cover;">
+                <div class="container clearfix">
+                    <div class="slider-caption">
+                        <img src="assets/slides/slide1-text-layer.svg" alt="Discover why Mill Creek loves their dentist">
+                        <h3 class="slide__copy">Now Welcoming New Patients</h3>
+                        <a href="#" class="btn" data-scrollto="#section-specials" data-offset="80">New Patient Offers</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide
+            ============================================= -->
+            <div class="swiper-slide slide2" style="background: url('assets/slides/slide2.jpg') 50% 50% no-repeat; background-size: cover;">
+                <div class="container clearfix">
+                    <div class="slider-caption slider-caption-left">
+                        <h2 class="slide__title">See what our<br>Patients are Saying!</h2>
+                        <img src="assets/slides/slide-stars.png" alt="Five Stars" class="stars">
+                        <h5 class="copy">“Dr Calvin and his Team are awesome! The office is<br>beautiful and they are perfectionists in every way.<br>My kind of Dentist! “ -Pamela J.</h5>
+                        <a href="#" class="btn" data-offset="80" data-scrollto="#section-reviews">Read More Reviews</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide
+            ============================================= -->
+            <div class="swiper-slide slide3" style="background: url('assets/slides/slide3.jpg') 50% 50% no-repeat; background-size: cover;">
+                <div class="container clearfix slide-content">
+                    <div class="slider-caption slider-caption-left">
+                        <h2 class="title--no-insure">No Insurance?</h2>
+                        <h3 class="title--sub">Our Patients Don’t Need It!</h3>
+                        <h3 class="preventative-copy">Get your preventive care<br>for a low monthly fee</h3>
+                        <a href="#" class="btn" data-offset="80" data-scrollto="#section-insurance">Learn More</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+{% include 'atoms/down-arrow.twig' %}
