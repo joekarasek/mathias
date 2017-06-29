@@ -80,13 +80,14 @@ h1 {
 }
 
 @mixin h2() {
+  text-transform: none;
+  
   @include headings();
   @include font-size(41px, 36px, 34px, 36px, 32px);
 }
 
 .h2,
 h2 {
-  font-style: italic;
   font-weight: 700;
 
   @include h2();

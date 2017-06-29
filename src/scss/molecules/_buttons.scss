@@ -1,32 +1,31 @@
 a.btn,
 button.btn {
   font-family: $ff-lato;
-  font-weight: 700 !important;
-  background-color: #10a9a4;
-  color: #fff;
+  font-weight: 400 !important;
+  background-image: radial-gradient(circle, #fad961 0%, #f76b1c 100%);
+  color: #000;
   border-radius: 30px;
   border: solid 3px #fff;
   padding: 10px 50px;
-  //box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.36);
+  transition: all 0.3s ease;
 
   @include font-size(22px, 21px, 19px, 18px, 16px);
 
   &:hover,
   &:focus {
-    background-color: darken(#10a9a4, 15%);
+    background-image: radial-gradient(circle, #fad961 0%, #fad961 25%, #f76b1c 100%);
     //box-shadow: 1px 3px 6px rgba(0, 0, 0, 0.46);
-    transition: all 0.3s ease;
     text-decoration: none;
   }
 
   &.btn--style-two {
-    background-color: #f06123;
-    color: #fff;
+    background-color: #f88b1b;
+    color: #000;
     //box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.36);
 
     &:hover,
     &:focus {
-      background-color: darken(#f06123, 15%);
+      background-color: darken(#f88b1b, 15%);
       //box-shadow: 1px 3px 6px rgba(0, 0, 0, 0.46);
     }
   }

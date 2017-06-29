@@ -6,6 +6,7 @@
 
   width: 100%;
   height: 100px;
+  border-bottom: solid 4px #f99c1b;
 
   &--transparent {
     position: absolute;
@@ -20,10 +21,10 @@
     margin-right: 0;
     border-right: none;
 
-    @include nav-color(#3c3c3c, 400);
-    @include nav-color(#f06223, 700, 1);
-    @include nav-color(#00659e, 700, 2);
-    @include nav-color(#10a9a4, 700, 3);
+    @include nav-color(#643f0a, 400);
+    @include nav-color(#5d157b, 400, 1);
+    @include nav-color(#0a8d95, 400, 2);
+    @include nav-color(#619d11, 400, 3);
   }
 
   #primary-menu-trigger {
@@ -98,6 +99,8 @@
   }
 
   #primary-menu ul li {
+    font-family: $ff-pangolin;
+
     @media screen and (max-width: $width-md) {
       border-top: 1px solid #000;
       background-color: #fff;
