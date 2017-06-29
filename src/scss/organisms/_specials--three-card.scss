@@ -1,13 +1,15 @@
 #section-specials {
+  position: relative;
   background-image: url('/assets/specials-bg.jpg');
   background-size: cover;
   background-repeat: no-repeat;
-  padding-top: 40px;
   padding-bottom: 30px;
 
   .heading {
-    padding-top: 10px;
+    padding-top: 50px;
     padding-bottom: 10px;
+    position: relative;
+    z-index: 10;
 
     &__title {
       margin-bottom: 5px;
@@ -176,6 +178,20 @@
       .specials-card__title {
         color: #68b403;
       }
+    }
+  }
+
+  .section-reviews-monkey {
+    display: none;
+
+    @media (min-width: 768px) {
+      display: inline-block;
+      position: absolute;
+      max-width: 200px;
+    }
+
+    @media (min-width: 1300px) {
+      max-width: 270px;
     }
   }
 }

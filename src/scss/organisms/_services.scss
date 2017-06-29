@@ -1,23 +1,31 @@
 #section-services {
+  .services-part-one__background {
+    position: relative;
+    background: linear-gradient(#f3eece, #fff);
+  }
+
+  .services__palm-background {
+    position: absolute;
+    max-width: 300px;
+  }
+
   .heading {
     text-align: center;
 
     &__title {
-      color: #1e5879;
+      color: #60338d;
       padding-top: $spacing-md;
-      font-style: italic;
       margin-bottom: 5px;
       line-height: 1;
+      font-family: $ff-pangolin;
     }
 
     &__byline {
-      color: #f16032;
+      color: #000;
       margin-bottom: 30px;
-      font-weight: 700;
-      font-style: italic;
 
       a {
-        color: #fff;
+        color: #000;
         text-decoration: underline;
       }
     }
@@ -27,16 +35,30 @@
     margin-top: -80px;
   }
 
-  .smile-slab {
+  .pediatric-slab {
     &__card {
-      padding-top: 30px;
-      padding-bottom: 20px;
+      padding-top: 10px;
+      padding-bottom: 10px;
     }
 
     &__title {
-      color: #1d5575;
+      color: #60338d;
       margin-bottom: 5px;
-      font-style: normal;
+      line-height: 1;
+      font-family: $ff-pangolin;
+    }
+
+    &__image {
+      @media (min-width: 768px) {
+        display: flex;
+        justify-content: center;
+
+        img {
+          height: 100%;
+          width: 100%;
+          align-items: center;
+        }
+      }
     }
 
     &__copy {
@@ -45,90 +67,65 @@
     }
 
     @media (min-width: 768px) {
-      background-image: url('/assets/services/smile-makeovers.jpg');
-      background-repeat: no-repeat;
-      background-size: cover;
-      background-position: right -160px top;
-
-      &__card {
-        padding-bottom: 200px;
-      }
-    }
-
-    @media (min-width: 1200px) {
-      background-size: contain;
-      background-repeat: no-repeat;
-      background-position: bottom right;
-
-      &__card {
-        padding-bottom: 260px;
+      .row {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
       }
     }
   }
 
-  .implant-slab {
-    .flex-wrapper {
-      display: flex;
-      flex-direction: column;
-      padding-top: 30px;
-      padding-bottom: 30px;
+  .frenectomy-slab {
+    &__card {
+      padding-top: 10px;
+      padding-bottom: 10px;
     }
 
-    .image {
-      order: 1;
-    }
-
-    .copy__title {
-      color: #1d5575;
-      font-style: normal;
+    &__title {
+      color: #60338d;
+      margin-bottom: 5px;
       line-height: 1;
-      margin-bottom: 10px;
+      font-family: $ff-pangolin;
     }
 
-    li {
-      font-weight: 700;
-      font-size: 18px;
-      margin-bottom: 10px;
-      margin-left: 10px;
+    &__image {
+      @media (min-width: 768px) {
+        display: flex;
+        justify-content: center;
+
+        img {
+          height: 100%;
+          width: 100%;
+          align-items: center;
+        }
+      }
+    }
+
+    .btn {
+      margin-top: 40px;
+    }
+
+    &__copy {
+      color: #000;
+      line-height: 1.3;
     }
 
     @media (min-width: 768px) {
-      .flex-wrapper {
-        display: block;
+      .row {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
       }
 
-      .image {
-        float: left;
-        padding-right: 30px;
-        width: 230px;
-      }
-
-      li {
-        margin-right: 25px;
-      }
-
-      ul {
-        margin-bottom: 0;
-      }
-    }
-
-    @media (min-width: 992px) {
-      .image {
-        padding-right: 50px;
-        width: 300px;
-      }
-    }
-
-    @media (min-width: 1200px) {
-      .image {
-        padding-right: 60px;
-        width: 350px;
+      &__image {
+        order: 1;
       }
     }
   }
 
   .implant__additional-text {
-    font-style: italic;
     padding-top: 30px;
     padding-bottom: 30px;
     clear: both;
