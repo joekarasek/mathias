@@ -88,8 +88,6 @@ h1 {
 
 .h2,
 h2 {
-  font-weight: 700;
-
   @include h2();
 
   @media (max-width: $width-xs) {
@@ -99,7 +97,7 @@ h2 {
 
 @mixin h3() {
   @include headings();
-  @include font-size(32px, 30px, 28px, 28px, 26px);
+  @include font-size(32px, 30px, 28px, 28px, 25px);
 }
 
 .h3,
