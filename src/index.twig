@@ -23,8 +23,9 @@
     <div id="content" >
 
         {% include 'molecules/cta__two-to-one.twig' with {
-            id: 'id="cta-one"',
-            existingPatients: true
+            id: 'cta-one',
+            classes: '',
+            existingPatients: false
         } %}
 
         {% include 'organisms/about.twig' %}
@@ -32,10 +33,9 @@
         {% include 'organisms/specials--three-card.twig' %}
 
         {% include 'molecules/cta__two-to-one.twig' with {
-            id: 'id="cta-two"',
+            id: 'cta-two',
             existingPatients: false,
-            shadow: false,
-            classes: ""
+            classes: ''
         } %}
 
         {% include 'organisms/reviews.twig' %}
@@ -45,9 +45,8 @@
         {% include 'organisms/insurance.twig' %}
 
         {% include 'molecules/cta__two-to-one.twig' with {
-            id: 'id="cta-three"',
-            existingPatients: true,
-            shadow: false
+            id: 'cta-three',
+            existingPatients: true
         } %}
 
         {% include 'organisms/services.twig' %}

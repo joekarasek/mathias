@@ -81,7 +81,7 @@ h1 {
 
 @mixin h2() {
   text-transform: none;
-  
+
   @include headings();
   @include font-size(41px, 36px, 34px, 36px, 32px);
 }
@@ -99,7 +99,7 @@ h2 {
 
 @mixin h3() {
   @include headings();
-  @include font-size(36px, 32px, 27px, 28px, 26px);
+  @include font-size(32px, 30px, 28px, 28px, 26px);
 }
 
 .h3,

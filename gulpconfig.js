@@ -5,7 +5,7 @@ module.exports = {
     watchFiles: [],
     baseDir: 'build/',
     startPath: '/',
-    openBrowserAtStart: true,
+    openBrowserAtStart: false,
     // requires above to be true; allows non-default browser to open
     browser: [
       'Google Chrome',
