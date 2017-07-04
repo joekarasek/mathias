@@ -83,7 +83,7 @@ h1 {
   text-transform: none;
 
   @include headings();
-  @include font-size(41px, 36px, 34px, 36px, 32px);
+  @include font-size(48px, 36px, 34px, 36px, 32px);
 }
 
 .h2,

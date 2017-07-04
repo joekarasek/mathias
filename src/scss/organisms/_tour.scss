@@ -1,22 +1,23 @@
 .tour {
-  background-image: url(/assets/tour-background.jpg);
-  background-size: cover;
-  background-position: top center;
+  background-image: url(/assets/tour-bg-tile.svg);
+  background-size: contain;
   color: #fff;
-  padding-top: 45px;
-  padding-bottom: 45px;
+  padding-top: 25px;
+  padding-bottom: 95px;
   position: relative;
 
   .heading {
     margin-bottom: 25px;
 
     &__title {
-      color: #fff;
+      color: #fbd801;
+      font-family: $ff-pangolin;
       margin-bottom: 10px;
     }
 
     &__copy {
       line-height: 1.5;
+      margin-bottom: 30px;
     }
   }
 
