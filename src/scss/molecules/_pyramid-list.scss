@@ -15,7 +15,7 @@
 
   &__item {
     display: flex;
-    align-items: flex-end;
+    align-items: center;
     width: 100%;
     padding-bottom: 30px;
     font-size: 17px;
@@ -25,13 +25,36 @@
     }
 
     @media (min-width: 992px) {
-      width: 33%;
+      width: 32%;
+    }
+
+    &:nth-child(3n+1) {
+      color: #00878f;
+
+      a:hover {
+        color: #00878f;
+      }
+    }
+
+    &:nth-child(3n) {
+      color: #457a00;
+
+      a:hover {
+        color: #457a00;
+      }
+    }
+
+    &:nth-child(3n+2) {
+      color: #e14f02;
+
+      a:hover {
+        color: #e14f02;
+      }
     }
   }
 
   &__link {
     text-decoration: underline;
-    color: #5e308b;
     padding-left: 15px;
     font-weight: 700;
     font-size: 17px;
