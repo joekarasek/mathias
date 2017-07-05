@@ -32,9 +32,9 @@ button.btn {
   }
 
   &.btn--style-three {
-    background-color: rgba(255, 255, 255, 0);
-    color: #1e5879;
-    border-color: #1e5879;
+    background: none;
+    color: #fff;
+    border-color: #fff;
 
     &:hover,
     &:focus {

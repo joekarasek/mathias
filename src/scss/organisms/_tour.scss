@@ -2,8 +2,9 @@
   background-image: url(/assets/tour-bg-tile.svg);
   background-size: contain;
   color: #fff;
+  background-color: #5b4571;
   padding-top: 25px;
-  padding-bottom: 95px;
+  padding-bottom: 55px;
   position: relative;
 
   .heading {
@@ -65,6 +66,8 @@
   }
 
   @media (min-width: 768px) {
+    padding-bottom: 95px;
+
     img {
       max-height: 480px !important;
     }

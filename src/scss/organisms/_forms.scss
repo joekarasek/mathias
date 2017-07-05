@@ -1,20 +1,51 @@
 #section-forms {
-  background-color: #e1ecf4;
+  background-color: #382d42;
   padding-top: 45px;
   padding-bottom: 45px;
+  position: relative;
+
+  .forms-marsupial-image {
+    position: absolute;
+    max-width: 100px;
+    left: 7px;
+    right: 0;
+    top: -50px;
+
+    @media (min-width: 550px) {
+      max-width: 140px;
+    }
+
+    @media (min-width: 768px) {
+      max-width: 170px;
+      left: 10px;
+      top: -90px;
+    }
+
+    @media (min-width: 992px) {
+      max-width: 190px;
+    }
+
+    @media (min-width: 1200px) {
+      max-width: 270px;
+      left: 15px;
+    }
+  }
 
   .heading {
     text-align: center;
     padding-bottom: 30px;
 
     &__title {
-      color: #1e5879;
-      font-style: italic;
-      font-weight: 900;
+      color: #eac90d;
+      font-family: $ff-pangolin;
       margin-bottom: 15px;
       line-height: 1;
       padding-bottom: 0;
       padding-top: 10px;
+    }
+
+    &__copy {
+      color: #fff;
     }
   }
 

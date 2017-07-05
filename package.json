@@ -18,7 +18,8 @@
     "start": "gulp",
     "gulp": "gulp --tasks && gulp",
     "gulp:tasks": "gulp --tasks",
-    "build:prod": "gulp compile && cp -r src/assets/loaders build/css/images && cp -r src/assets/loaders build/images"
+    "build:prod": "gulp compile && cp -r src/assets/loaders build/css/images && cp -r src/assets/loaders build/images",
+    "html": "html"
   },
   "author": "",
   "license": "ISC"
