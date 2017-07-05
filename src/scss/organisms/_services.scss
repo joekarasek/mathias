@@ -1,4 +1,7 @@
 #section-services {
+  border-top: solid 4px #ffda00;
+  position: relative;
+
   .services-part-one__background {
     position: relative;
     background: linear-gradient(#f3eece, #fff);
@@ -7,6 +10,26 @@
   .services__palm-background {
     position: absolute;
     max-width: 300px;
+  }
+
+  .services-bottom-image {
+    margin-top: -270px;
+
+    @media (min-width: 550px) {
+      margin-top: -440px;
+    }
+
+    @media (min-width: 768px) {
+      margin-top: -620px;
+    }
+
+    @media (min-width: 992px) {
+      margin-top: -740px;
+    }
+
+    @media (min-width: 1200px) {
+      margin-top: -900px;
+    }
   }
 
   .heading {
