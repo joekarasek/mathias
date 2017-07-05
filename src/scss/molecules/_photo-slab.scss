@@ -1,0 +1,25 @@
+.parallax__photo-slab {
+  background-image: url(/assets/team-photo.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center top;
+  margin-bottom: 30px;
+  height: 200px !important;
+
+  @media (min-width: $width-xs) {
+    height: 250px !important;
+  }
+
+  @media (min-width: $width-sm) {
+    height: 400px !important;
+  }
+
+  @media (min-width: $width-md) {
+    background-position: center 50px;
+    height: 480px !important;
+  }
+
+  @media (min-width: $width-lg) {
+    height: 480px !important;
+  }
+}

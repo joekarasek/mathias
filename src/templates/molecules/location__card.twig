@@ -5,15 +5,15 @@
     {#</div>#}
 
     <div class="location-card__logo--wrapper">
-        <img  src="assets/nav-logo.png" alt="{{ mainDoctor }}" class="location-card__logo">
+        <img  src="assets/logo-location.svg" alt="{{ mainDoctor }}" class="location-card__logo">
     </div>
 
     <div class="location-card__content">
 
-        <h3 class="location-card__doctor">Rick Calvin, DDS</h3>
+        <h3 class="location-card__doctor">Sarah Mathias, <span class="location-card__doctor--titles">DDS, MS</span></h3>
         {#<p class="location-card__doctor-sub">GENERAL & COSMETIC DENTIST</p>#}
 
-        <p class="location-card__address">25 Buttrick Road , Suite A 2<br>Londonderry, NH 03053</p>
+        <p class="location-card__address">24422 Avenida de La Carlota, Suite 120<br>Laguna Hills, CA 92653</p>
 
         <a href="{{ googleMap }}" target="_blank" class="link-no-style ">
             <h6 class="location-card__map-link underline">Click for map & directions</h6>
@@ -21,15 +21,13 @@
 
         {% include 'atoms/hours-table.twig' %}
 
-        <h5 class="location-card__welcoming-patients">Now Welcoming New Patients</h5>
+        <h3 class="location-card__welcoming-patients">Now Welcoming<br>New Patients!</h3>
         {#<p class="location-card__new-patient-text">New Patient Hotline</p>#}
         <a href="tel:{{ newPhone }}" class="location-card__new-patient-number">{{ newPhoneNoBreak }}</a>
 
-
-        <p class="location-card__existing-patient-text">Existing Patients:
-            <a href="tel:{{ existingPhone }}" class="link-no-style location-card__existing-patient-number">{{ existingPhoneNoBreak }}</a>
-        </p>
-
+        {#<p class="location-card__existing-patient-text">Existing Patients:#}
+            {#<a href="tel:{{ existingPhone }}" class="link-no-style location-card__existing-patient-number">{{ existingPhoneNoBreak }}</a>#}
+        {#</p>#}
         {% include 'atoms/request-appointment-button.twig' with {
             classes: "btn--style-two"
         } %}
