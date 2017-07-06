@@ -66,22 +66,23 @@
   .slide3 {
     .title--no-insure {
       color: #006c73;
-      margin-bottom: 25px;
+      margin-bottom: 15px;
       line-height: 1;
       text-transform: none;
+      font-family: $ff-lato;
 
-      @include font-size(45px, 40px, 35px);
+      @include font-size(44px, 36px, 35px);
     }
 
     .title--sub {
       color: #681989;
       font-weight: 400;
-      line-height: 1.4;
+      line-height: 1.2;
       font-family: $ff-pangolin;
-      margin-bottom: 10px;
+      margin-bottom: 20px;
       text-transform: none;
 
-      @include font-size(40px, 38px, 30px);
+      @include font-size(36px, 32px, 30px);
     }
 
     .preventative-copy {
@@ -97,7 +98,7 @@
     }
 
     .slider-caption {
-      min-width: 700px;
+      min-width: 570px;
     }
   }
 

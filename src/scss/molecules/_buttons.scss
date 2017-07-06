@@ -43,6 +43,21 @@ button.btn {
     }
   }
 
+  &.btn--style-four {
+    background-image: none;
+    background-color: #68b403;
+    color: #000;
+    border-color: #000;
+    padding-left: 70px;
+    padding-right: 70px;
+
+    &:hover,
+    &:focus {
+      //background-color: darken(#9ed5af, 15%);
+      //box-shadow: 1px 3px 6px rgba(0, 0, 0, 0.46);
+    }
+  }
+
   &.shadowed {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
   }
