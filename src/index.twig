@@ -25,7 +25,7 @@
         {% include 'molecules/cta__two-to-one.twig' with {
             id: 'cta-one',
             classes: '',
-            existingPatients: false
+            existingPatients: true
         } %}
 
         {% include 'organisms/about.twig' %}
@@ -34,7 +34,7 @@
 
         {% include 'molecules/cta__two-to-one.twig' with {
             id: 'cta-two',
-            existingPatients: false,
+            existingPatients: true,
             classes: ''
         } %}
 
@@ -47,8 +47,8 @@
         {% include 'organisms/services.twig' %}
 
         {% include 'molecules/cta__two-to-one.twig' with {
-        id: 'cta-three',
-        existingPatients: false
+            id: 'cta-three',
+            existingPatients: true
         } %}
 
         {% include 'organisms/tour.twig' %}
