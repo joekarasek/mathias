@@ -100,7 +100,8 @@
   }
 
   &__existing-patient-text {
-    color: #1a202a;
+    color: #5b4571;
+    font-family: $ff-lato;
     margin-top: 15px;
     line-height: 1;
     margin-bottom: 25px;
@@ -109,9 +110,10 @@
   }
 
   &__existing-patient-number {
-    color: #1a202a;
+    color: #5b4571;
+    font-weight: 700;
 
-    @include font-size(20px, 20px, 20px, 18px, 16px);
+    @include font-size(24px, 24px, 22px, 20px, 20px);
 
     &:hover {
       color: #1a202a;

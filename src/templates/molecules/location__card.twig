@@ -25,9 +25,9 @@
         {#<p class="location-card__new-patient-text">New Patient Hotline</p>#}
         <a href="tel:{{ newPhone }}" class="location-card__new-patient-number">{{ newPhoneNoBreak }}</a>
 
-        {#<p class="location-card__existing-patient-text">Existing Patients:#}
-            {#<a href="tel:{{ existingPhone }}" class="link-no-style location-card__existing-patient-number">{{ existingPhoneNoBreak }}</a>#}
-        {#</p>#}
+        <p class="location-card__existing-patient-text">Existing Patients Call:<br>
+            <a href="tel:{{ existingPhone }}" class="link-no-style location-card__existing-patient-number">{{ existingPhoneNoBreak }}</a>
+        </p>
         {% include 'atoms/request-appointment-button.twig' with {
             classes: "btn--style-two"
         } %}
